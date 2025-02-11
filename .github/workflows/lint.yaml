@@ -67,7 +67,7 @@ jobs:
           cache_key_id: ctf-go-${{ matrix.project.name }}
           cache_restore_only: 'false'
       - name: golangci-lint ${{ needs.tools.outputs.golangci-lint-version }}
-        uses: golangci/golangci-lint-action@9d1e0624a798bb64f6c3cea93db47765312263dc # v5.1.0
+        uses: golangci/golangci-lint-action@051d91933864810ecd5e2ea2cfd98f6a5bca5347 # v6.3.2
         with:
           version: v${{ needs.tools.outputs.golangci-lint-version }}
           args: --out-format checkstyle:golangci-lint-report.xml
