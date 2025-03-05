@@ -141,7 +141,7 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Create a new PR targeting current PR
-        uses: peter-evans/create-pull-request@5e914681df9dc83aa4e4905692ca88beb2f9e91f # v7.0.5
+        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
         id: create-pr
         with:
           token: ${{ steps.setup-github-token-write.outputs.access-token }}
