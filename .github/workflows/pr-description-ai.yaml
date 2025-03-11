@@ -16,7 +16,7 @@ jobs:
       repository-projects: read
     steps:
       - name: Generate PR Description
-        uses: smartcontractkit/.github/actions/llm-pr-writer@0dd7de0bab24dcc169499ac8c71f7315cc8ca98e # llm-pr-writer@0.3.1
+        uses: smartcontractkit/.github/actions/llm-pr-writer@cdd6cd208e7d778ce97b57aa459d8c2242aa8e11 # llm-pr-writer@0.3.1
         with:
           gh-token: ${{ github.token }}
           openai-api-key: ${{ secrets.OPENAI_API_KEY }}
