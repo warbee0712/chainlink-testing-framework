@@ -1,6 +1,7 @@
 module github.com/smartcontractkit/chainlink-testing-framework/lib
 
 go 1.23
+toolchain go1.24.1
 
 require (
 	dario.cat/mergo v1.0.1
@@ -41,8 +42,8 @@ require (
 	go.uber.org/zap v1.27.0
 	golang.org/x/net v0.30.0
 	golang.org/x/oauth2 v0.23.0
-	golang.org/x/sync v0.8.0
-	golang.org/x/text v0.19.0
+	golang.org/x/sync v0.13.0
+	golang.org/x/text v0.24.0
 	k8s.io/api v0.31.2
 	k8s.io/apimachinery v0.31.2
 	k8s.io/cli-runtime v0.31.2
